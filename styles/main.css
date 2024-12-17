@@ -1,0 +1,59 @@
+body {
+  background-color: #d7c49eff;
+  font-family: Arial, sans-serif;
+}
+
+.container h1,
+.card-title {
+  color: rgb(22, 40, 91) !important;
+}
+
+form .form-select,
+form .form-control {
+  border-radius: 0.5rem;
+  border: 1px solid #ddd;
+}
+
+form button {
+  border-radius: 0.5rem solid transparent;
+  font-weight: bold;
+  background-color: rgb(22, 40, 91) !important;
+  color: white !important;
+}
+
+form button:hover {
+  background-color: #2e446b !important;
+  color: #fff;
+}
+
+.card {
+  border-radius: 1rem;
+  background-color: #ffffff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.card-body p {
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.card-text strong {
+  color: #6c757d;
+}
+
+.text-danger {
+  font-weight: bold;
+}
+
+.text-muted {
+  font-size: 1.1rem;
+}
